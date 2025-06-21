@@ -15,7 +15,7 @@
     <div class="logo">
         <h1>Portfolio</h1>
     </div>
-    <ul>
+    <ul id="list">
         <li> 
             <a  class="active"href="home">Home </a>
         </li>
@@ -29,39 +29,131 @@
             <a href="Contact">Contact </a>
         </li>
     </ul>
-
-    <i class="fa-solid fa-bars"></i>
+    <div class="menu">
+    <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+    </div>
     </div>
    
 </nav>
-<section class="home">
-
-<div class="contentet">
-    
+<!--<script>
+    let list = document.getElementById("list")
+ list.style.maxHeight ="0px";
+ function toggleMenu(){
+    if (list.style.maxHeight ="0px")
+ {
+    list.style.maxHeight = "300px";
+ }
+ else{
+    list.style.maxHeight ="0px";
+ }
+ }
+</script>-->
+  <section class="home" id ="home">
+        <div class=" home-img">
+            <img src="nin.jpg"alt="lina">
+    </div>
+<!--<div class="home-contentet">
+    <h3>Hello My Name Is </h3>
     <h1>Lina Temam</h1>
-    <h2>I'm a  Frontend Devloper</h2>
     
-    <p>juhygbfre ioftrg hbirt bjkebvw iurtbjkbwbji 
-        kvbfjfed jdehfurewf
-        
-
-kvbfjfed jdehfurewf
-        viruvbu
-    </p>
+    
+    <p>A passionate and motivated junior web developer, driven by the expanding world of technology and its boundless possibilities.   </p>
      <div class="icon">
-<i class="fa-brands fa-square-twitter"></i>         
-    <i class="fa-brands fa-square-x-twitter"></i>
-<i class="fa-brands fa-square-instagram"></i>
-<i class="fa-brands fa-linkedin"></i>
+   <i class="fa-brands fa-square-twitter"></i>      
+     <i class="fa-brands fa-square-x-twitter"></i>
+   <i class="fa-brands fa-square-instagram"></i>
+    <i class="fa-brands fa-linkedin"></i>
+</div>-->
+<div class="name-box">
+         <div class="box ">
+    <h3>Hello My Name Is </h3>
+    <h1>
+        Lina Temam
+    </h1>
+    <p>
+        A passionate and motivated junior web developer, driven by the expanding world of technology and its boundless possibilities.   </p>
+    </p>
+    </div>
+     <div class="icon">
+   <i class="fa-brands fa-square-twitter"></i>      
+     <i class="fa-brands fa-square-x-twitter"></i>
+   <i class="fa-brands fa-square-instagram"></i>
+    <i class="fa-brands fa-linkedin"></i>
 </div>
-    </div>
+</div>
     
-    <div class="box">
-        <div class="img">
-            <img src="lina.png">
+
+
+  
+</section> 
+<section class="about" id="about">
+    <div class="about-content">
+        <div class="about-box">
+        <h2 class="head"> About Me            
+        </h2>
+        <h3>I'm Frontend Devloper</h3>
+        <p>A passionate and motivated junior web developer, driven by the expanding world of technology and its boundless possibilities.   </p>
+     </p>
     </div>
-   
+    </div>
+    <!--
+    <div class="about-image">
+
+        <img src="lina.png" alt="img">
+    </div>
+-->
 </section>
+
+
+
+
+
+
+
+<section class="skill">
+    <h2 class="head" >My skill</h2>
+    <div class="skill-container"> 
+        <div class="skill-box">
+    <i class="bx bx-code"></i>
+    <h3>Web Developer</h3>
+    <p>
+        A passionate and motivated junior web developer, driven by the expanding world of technology and its boundless possibilities.   </p>
+    
+    </p>
+    </div>
+      <div class="skill-box">
+           <i class="bx bx-code"></i>
    
+    <h3>Web Developer</h3>
+    <p>
+        A passionate and motivated junior web developer, driven by the expanding world of technology and its boundless possibilities.   </p>
+    </p>
+    </div>
+      <div class="skill-box">
+    <i class="bx bx-code"></i>
+    <h3>Web Developer</h3>
+    <p>
+        A passionate and motivated junior web developer, driven by the expanding world of technology and its boundless possibilities.   </p>
+    
+    </p>
+    
+    
+    
+
+</div>
+</section>
+<footer class="footer">
+    <div class="social">
+        
+   <i class="fa-brands fa-square-twitter"></i>      
+     <i class="fa-brands fa-square-x-twitter"></i>
+   <i class="fa-brands fa-square-instagram"></i>
+    <i class="fa-brands fa-linkedin"></i>
+    
+   </div>
+   <p class="copyright">
+    &copy;Lina Temam 
+   </p>
+</footer>
 </body>
 </html>

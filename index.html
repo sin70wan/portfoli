@@ -1,113 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-     <link rel="stylesheet" href="style.css">
-<link rel="icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.png" type="image/png">
 
 
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
 </head>
-<body >
-    
-<nav class="navbar">
-    <div class="logo">
-        <h1>L</h1>
-    </div>
-    <ul id="list">
-        <li> 
-            <a  class="active"href="home">Home </a>
-        </li>
-         <li> 
-            <a href="about">About </a>
-        </li>
-         <li> 
-            <a href="skill">SKill </a>
-        </li>
-         <li> 
-            <a href="Contact">Contact </a>
-        </li>
-    </ul>
-    <div class="menu">
-    <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
-    </div>
-    </div>
+
+<body>
+    <header>
+    <nav class="navbar">
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+       <i class="fa-solid fa-bars"></i>
+
+    </label>
+     
    
-</nav>
-<!--<script>
-    let list = document.getElementById("list")
- list.style.maxHeight ="0px";
- function toggleMenu(){
-    if (list.style.maxHeight ="0px")
- {
-    list.style.maxHeight = "300px";
- }
- else{
-    list.style.maxHeight ="0px";
- }
- }
-</script>-->
-  <section class="home" id ="home">
-        <div class=" home-img">
-            <img src="nin.jpg"alt="lina">
-    </div>
-<!--<div class="home-contentet">
-    <h3>Hello My Name Is </h3>
-    <h1>Lina Temam</h1>
+    <label class="logo">LINA</label>
+    <ul>
+      <li>
+      <a class="active" id="" href="#">Home</a>
+      </li>
+      <li>
+ <a href="#">About</a>
+      </li>
+      <li>
+ <a href="#">skill</a>
+      </li>
+      <li>
+ <a href="#">Contact</a>
+      </li>
+    </ul>
     
-    
-    <p>A passionate and motivated junior web developer, driven by the expanding world of technology and its boundless possibilities.   </p>
-     <div class="icon">
-   <i class="fa-brands fa-square-twitter"></i>      
-     <i class="fa-brands fa-square-x-twitter"></i>
-   <i class="fa-brands fa-square-instagram"></i>
-    <i class="fa-brands fa-linkedin"></i>
-</div>-->
-<div class="name-box">
-         <div class="box ">
-    <h3>Hello My Name Is </h3>
-    <h1>
-        Lina Temam
-    </h1>
-    <p>
-        A passionate and motivated junior web developer, driven by the expanding world of technology and its boundless possibilities.   </p>
-    </p>
-    </div>
-     <div class="icon">
-   <i class="fa-brands fa-square-twitter"></i>      
-     <i class="fa-brands fa-square-x-twitter"></i>
-   <i class="fa-brands fa-square-instagram"></i>
-    <i class="fa-brands fa-linkedin"></i>
-</div>
-</div>
-    
+   </nav>
+
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   
-</section> 
-<section class="about" id="about">
-    <div class="about-box">
-    <div class="about-content">
+
+
+
+
+
+    <section class="home" >
+        <div class=" home-contentet">
+            <img src="nin.jpg" alt="lina">
+        </div>
+        <div class="home-text">
+            
+                <h3>Hello My Name Is </h3>
+                <h1>
+                    Lina Temam
+                </h1>
+                <p>
+                    A passionate and motivated junior web developer, driven by the expanding world of technology and its
+                    boundless possibilities. </p>
+                </p>
+                 <div class="icon">
+                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-square-x-twitter"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                </div>
+        </div>
+    </section>
+
+
         
-        <h2 class="head"> About Me            
-        </h2>
-        <h3>I'm Fullstack Devloper</h3>
-        <p>A passionate and motivated junior web developer, driven by the expanding world of technology and its boundless possibilities.   </p>
-     </p>
-    </div>
-    
-    </div>
-    <!--
+       
+
+
+    </section>
+    <section class="about" id="about">
+      <!-- <div class="about-box">-->
+            <div class="about-content">
+
+                <h2 class="head"> About Me
+                </h2>
+                <h3>I'm Fullstack Devloper</h3>
+                <p>A passionate and motivated junior web developer, driven by the expanding world of technology and its
+                    boundless possibilities. </p>
+                </p>
+            </div>
+
+        </div>
+        <!--
     <div class="about-image">
 
         <img src="lina.png" alt="img">
     </div>
 -->
-</section>
+    </section>
 
 
 
@@ -115,88 +144,93 @@
 
 
 
-<section class="skill">
-    <h2 class="head" >My Skill</h2>
-    
+    <section class="skill">
+        <h2 class="head">My Skill</h2>
 
-    <div class="skill-container"> 
-         
-      <div class="skill-box">
-        <div class="java"><i class="fa-brands fa-linux"></i></div>
-         
-    <h3>Linux</h3>
-    <p>
-        Comfortable using Linux for development, scripting, and system management.
-    </p>
-    </div>
-       <div class="skill-box">
-        <div class="java"><i class="fa-brands fa-react"></i></div>
-         
-    <h3>React</h3>
-    <p>
-        Skilled in building responsive and reusable UI components with React.
-    </p>
-    </div>
-     <div class="skill-box">
-        <div class="java"><i class="fa-brands fa-java"></i></div>
-         
-    <h3>Java</h3>
-    <p>
-         Experienced in object-oriented programming and building scalable Java applications.
-    </p>
+
+        <div class="skill-container">
+
+            <div class="skill-box">
+                <div class="java"><i class="fa-brands fa-linux"></i></div>
+
+                <h3>Linux</h3>
+                <p>
+                    Comfortable using Linux for development, scripting, and system management.
+                </p>
+            </div>
+            <div class="skill-box">
+                <div class="java"><i class="fa-brands fa-react"></i></div>
+
+                <h3>React</h3>
+                <p>
+                    Skilled in building responsive and reusable UI components with React.
+                </p>
+            </div>
+            <div class="skill-box">
+                <div class="java"><i class="fa-brands fa-java"></i></div>
+
+                <h3>Java</h3>
+                <p>
+                    Experienced in object-oriented programming and building scalable Java applications.
+                </p>
+            </div>
+
+            <div class="skill-box">
+                <div class="java"><i class="fa-brands fa-node"></i></div>
+
+                <h3>Node Js</h3>
+                <p>
+                    Proficient in developing fast and efficient server-side applications with Node.js.
+                </p>
+            </div>
+            <div class="skill-box">
+                <div class="java"><i class="fa-brands fa-node-js"></i></div>
+
+                <h3>JS</h3>
+                <p>
+                    Proficient in developing fast and efficient server-side applications with Node.js.
+                </p>
+            </div>
+            <div class="skill-box">
+                <div class="java"><i class="fa-solid fa-network-wired"></i></div>
+
+                <h3>Networking</h3>
+                <p>
+                    Knowledgeable in securing networks, protocols, and system vulnerabilities.
+                </p>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
+    </section>
+    <footer class="footer">
+        <div class="social">
 
- <div class="skill-box">
-        <div class="java"><i class="fa-brands fa-node"></i></div>
-         
-    <h3>Node Js</h3>
-    <p>
-        Proficient in developing fast and efficient server-side applications with Node.js.
-    </p>
+            <i class="fa-brands fa-square-twitter"></i>
+            <i class="fa-brands fa-square-x-twitter"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+
         </div>
-         <div class="skill-box">
-        <div class="java"><i class="fa-brands fa-node-js"></i></div>
-         
-    <h3>JS</h3>
-    <p>
-        Proficient in developing fast and efficient server-side applications with Node.js.
-    </p>
-        </div>
-         <div class="skill-box">
-        <div class="java"><i class="fa-solid fa-network-wired"></i></div>
-         
-    <h3>Networking</h3>
-    <p>
-          Knowledgeable in securing networks, protocols, and system vulnerabilities.
-   </p>
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
- 
-    </div>
-</section>
-<footer class="footer">
-    <div class="social">
-        
-   <i class="fa-brands fa-square-twitter"></i>      
-     <i class="fa-brands fa-square-x-twitter"></i>
-   <i class="fa-brands fa-square-instagram"></i>
-    <i class="fa-brands fa-linkedin"></i>
-    
-   </div>
-   <p class="copyright">
-    &copy;Lina Temam 
-   </p>
-</footer>
+        <br>
+        <p class="copyright">
+            &copy;Lina Temam
+        </p>
+    </footer>
+    <script src="ion.js">
+        </script>
+  
 </body>
+
 </html>
